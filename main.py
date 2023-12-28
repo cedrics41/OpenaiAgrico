@@ -21,6 +21,7 @@ if df is not None:
         if nbr_col == len(data.columns):
             st.markdown("C'est bon")
             prompt = f"Ecris moi une conclusion d'un article qui parle de l'utilisation de google"
+            st.markdown(prompt)
             completion = openai.ChatCompletion.create(
             model="gpt-3.5-turbo", 
             messages=[{"role": "user", "content": prompt}])
