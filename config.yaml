@@ -1,0 +1,21 @@
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: random_cookie_name
+credentials:
+  usernames:
+    cedrics:
+      email: cedricsong123@gmail.com
+      name: cedrics
+      password: $2b$12$dps1lqmofOQGYnCpSD2P7u/9AL9Lj2ggwdF0HYPs0HqpmAR/4uRJO
+    jsmith:
+      email: jsmith@gmail.com
+      name: John Smith
+      password: $2b$12$ZDVELMoJqNrxeX7E8BNxde2E9gOjKNGdiY4PDnySodayYdhBSApGC
+    rbriggs:
+      email: rbriggs@gmail.com
+      name: Rebecca Briggs
+      password: $2b$12$pT0C3fLSGWLakp.QMrRS2up2LYGo1F8OpjPsnPsQPDeAYN3t2mA8K
+preauthorized:
+  emails:
+  - melsby@gmail.com
