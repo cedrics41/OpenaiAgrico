@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import openai
 
-openai.api_key = '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'
+openai.api_key = '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'
 df = st.file_uploader('Deposit file and the type is csv', type=["csv","xls","xlsx"], label_visibility = 'hidden')
 if df is not None:
     try:
